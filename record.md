@@ -6,3 +6,4 @@
 ### one dark pro(切换主题) live server(实时浏览器)
 ### 快捷键 快速复制一行 shift+alt+下箭头
 ### 快速替换选中 crtl+d
+### 锚点 重点掌握
