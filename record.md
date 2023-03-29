@@ -9,3 +9,5 @@
 ### 锚点 重点掌握
 ### 无序列表 有序列表 自定义列表(需要重点掌握)
 ### 表单
+### font-family--字体格式  font-size--字体大小 font-weight--字体粗细  font-style--字体样式
+### font复合写法 font : font-style || font-variant || font-weight || font-size || line-height || font-family  font复合写法中,font-size和font-family是必须的
