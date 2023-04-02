@@ -13,3 +13,4 @@
 ### font复合写法 font : font-style || font-variant || font-weight || font-size || line-height || font-family  font复合写法中,font-size和font-family是必须的
 ### 复合选择器：后代选择器 子选择器 并集选择器 交集选择器 伪类选择器 伪元素选择器 
 ### 伪类选择器，用：来选择 比如:hover :first-child
+### 元素显示模式:块级元素 行内元素 行内块级元素
