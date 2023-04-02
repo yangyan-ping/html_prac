@@ -7,15 +7,56 @@
     <title>半透明效果</title>
     <style>
         /* 背景色半透明 */
-        div {
+        /* div {
             width: 300px;
             height: 300px;
-            /* background-color: pink; */
+            background-color: pink;
             background: rgba(0,0,0,.3);
+        } */
+        a {
+            width: 120px;
+            height: 58px;
+            display: inline-block;
+            text-decoration: none;
+            color: #fff;
+            /* background: url(image/bg1.png) no-repeat; */
+            line-height: 48px;
+            text-align: center;
+        }
+        .bg1 {
+            background: url(image/bg1.png) no-repeat;
+        }
+
+        .bg2 {
+            background: url(image/bg2.png) no-repeat;
+        }
+
+        .bg3 {
+            background: url(image/bg3.png) no-repeat;
+        }
+
+        .bg4 {
+            background: url(image/bg4.png) no-repeat;
+        }
+        .bg1:hover {
+            background: url(image/bg3.png) no-repeat;
+        }
+        .bg2:hover {
+            background: url(image/bg1.png) no-repeat;
+        }
+        .bg3:hover {
+            background: url(image/bg4.png) no-repeat;
+        }
+        .bg4:hover {
+            background: url(image/bg2.png) no-repeat;
         }
     </style>
 </head>
 <body>
-    <div>111111</div>
+    <!-- <div>111111</div> -->
+    <a href="#" class="bg1">五彩导航</a>
+    <a href="#" class="bg2">五彩导航</a>
+    <a href="#" class="bg3">五彩导航</a>
+    <a href="#" class="bg4">五彩导航</a>
 </body>
 </html>
