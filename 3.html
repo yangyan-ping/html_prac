@@ -5,10 +5,24 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>表格标签</title>
+    <style>
+        .table {
+            width: 600px;
+            height: 30px;
+        }
+        .table,th,td {
+            border: 1px solid #000;
+            border-collapse: collapse;
+        }
+
+        td{
+            text-align: center;
+        }
+    </style>
 </head>
 <body>
     <!-- 表格相关属性 合并单元格：rowspan--行 colspan--列-->
-    <table align="center" border="1" cellpading="0" cellspacing="0" width="500" height="20">
+    <table align="center" class="table">
         <tr>
             <th>排名</th>
             <th>关键词</th>
